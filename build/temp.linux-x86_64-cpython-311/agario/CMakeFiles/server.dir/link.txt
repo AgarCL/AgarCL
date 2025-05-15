@@ -1,1 +1,0 @@
-/usr/bin/clang++ -O3 -fpermissive -O3 -DNDEBUG CMakeFiles/server.dir/server/main.cpp.o -o server 

@@ -1,2 +1,0 @@
-agarcl
-gym_agario
