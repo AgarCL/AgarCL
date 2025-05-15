@@ -1,0 +1,49 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c3c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c3c0.dir/build.make CMakeFiles/cmTC_5c3c0.dir/build
+gmake[1]: Entering directory '/home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c3c0.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_CXX_FLAG_WD654  -DVERSION_INFO=\"0.0.1\"  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654   -wd654 -std=c++14 -MD -MT CMakeFiles/cmTC_5c3c0.dir/src.cxx.o -MF CMakeFiles/cmTC_5c3c0.dir/src.cxx.o.d -o CMakeFiles/cmTC_5c3c0.dir/src.cxx.o -c /home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd654'
+clang: error: unknown argument: '-wd654'
+gmake[1]: *** [CMakeFiles/cmTC_5c3c0.dir/build.make:79: CMakeFiles/cmTC_5c3c0.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5c3c0/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH failed with the following output:
+Change Dir: /home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64dac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64dac.dir/build.make CMakeFiles/cmTC_64dac.dir/build
+gmake[1]: Entering directory '/home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64dac.dir/src.cxx.o
+/usr/bin/clang++ -DBENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH  -DVERSION_INFO=\"0.0.1\"  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable    -Wno-lto-type-mismatch -std=c++14 -MD -MT CMakeFiles/cmTC_64dac.dir/src.cxx.o -MF CMakeFiles/cmTC_64dac.dir/src.cxx.o.d -o CMakeFiles/cmTC_64dac.dir/src.cxx.o -c /home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wno-lto-type-mismatch'; did you mean '-Wno-selector-type-mismatch'? [-Werror,-Wunknown-warning-option]
+gmake[1]: *** [CMakeFiles/cmTC_64dac.dir/build.make:79: CMakeFiles/cmTC_64dac.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_64dac/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLTO_THIN failed with the following output:
+Change Dir: /home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2df86/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2df86.dir/build.make CMakeFiles/cmTC_2df86.dir/build
+gmake[1]: Entering directory '/home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2df86.dir/src.cxx.o
+/usr/bin/clang++ -DHAS_FLTO_THIN  -DVERSION_INFO=\"0.0.1\"    -flto -std=gnu++17 -MD -MT CMakeFiles/cmTC_2df86.dir/src.cxx.o -MF CMakeFiles/cmTC_2df86.dir/src.cxx.o.d -o CMakeFiles/cmTC_2df86.dir/src.cxx.o -c /home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2df86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df86.dir/link.txt --verbose=1
+/usr/bin/clang++ -DVERSION_INFO=\"0.0.1\"  CMakeFiles/cmTC_2df86.dir/src.cxx.o -o cmTC_2df86  -flto= 
+clang: error: unsupported argument '' to option 'flto='
+gmake[1]: *** [CMakeFiles/cmTC_2df86.dir/build.make:100: cmTC_2df86] Error 1
+gmake[1]: Leaving directory '/home/ayman/thesis/AgarLE/build/temp.linux-x86_64-cpython-311/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2df86/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

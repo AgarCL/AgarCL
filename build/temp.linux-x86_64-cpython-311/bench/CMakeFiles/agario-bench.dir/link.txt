@@ -1,0 +1,1 @@
+/usr/bin/clang++ -DVERSION_INFO=\"0.0.1\" -O3 -DNDEBUG CMakeFiles/agario-bench.dir/main.cpp.o -o agario-bench  ../dependencies/benchmark/src/libbenchmark.a -lpthread -lrt 

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+GymAgario.egg-info/PKG-INFO
+GymAgario.egg-info/SOURCES.txt
+GymAgario.egg-info/dependency_links.txt
+GymAgario.egg-info/requires.txt
+GymAgario.egg-info/top_level.txt
+gym_agario/AgarioEnv.py
+gym_agario/__init__.py
+gym_agario/agar_utils.py
