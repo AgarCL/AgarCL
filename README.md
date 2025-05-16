@@ -7,6 +7,8 @@
 
 A research platform for continual RL that allows for a progression of increasingly sophisticated behaviour.
 
+Please find the documentation [here](https://agarcl.github.io/).
+
 <div align="center">
     <img src="assets/game_description.png" alt="AgarCL description" width="600"/>
 </div>
@@ -82,7 +84,7 @@ Now, let's install the platform on your system (`agarclcontainer` container):
      git clone git@github.com/AgarCL/AgarCL-benchmark.git
      ```
 
-2. **Navigate to the AgarLE-Benchmark Directory**
+2. **Navigate to the AgarCL-Benchmark Directory**
    - Change into the `AgarCL-benchmark` directory:
      ```bash
      cd AgarCL-benchmark
