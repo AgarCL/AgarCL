@@ -69,7 +69,7 @@ Now, let's install the platform on your system (`agarclcontainer` container):
 
    - Run the installation command to set up the platform:
      ```bash
-     python3 setup.py install --user
+     python setup.py install --user
      ```
 
    - This will install the platform in your local user environment.
@@ -140,7 +140,7 @@ Then follow these steps to set up the AgarCL environment on macOS:
    ```
 3. **Create a Python virtual environment:**
    ```bash
-   python3 -m venv agarclenv
+   python -m venv agarclenv
    ```
 4. **Activate the virtual environment:**
    ```bash
@@ -156,7 +156,7 @@ Then follow these steps to set up the AgarCL environment on macOS:
    ```
 7. **Build & install the Python package:**
    ```bash
-   python3 setup.py install
+   python setup.py install
     ```
 
 #### Done!
@@ -173,7 +173,7 @@ Then follow these steps to set up the AgarCL environment on macOS:
    ```
 3. **Create a Python virtual environment:**
    ```bash
-   python3 -m venv agarclenv
+   python -m venv agarclenv
    ```
 4. **Activate the virtual environment:**
    ```bash
