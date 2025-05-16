@@ -108,9 +108,23 @@ Now, let's install the platform on your system (`agarclcontainer` container):
 
 #### Done!
 
+## macOS and Linux Installation Guide
+
+### Installation notes:
+
+Ensure the project is compiled with clang++, not g++
+
 ### macOS Installation Guide
 
-Follow the instructions [here](https://brew.sh/) and make sure you have homebrew correctly installed and updated.
+> 💡 Before starting:
+>
+> Follow the instructions [here](https://brew.sh/) and make sure you have **homebrew** correctly installed and updated.
+>
+> Make sure **Command Line Tools** are installed properly, follow the [documentation](https://developer.apple.com/xcode/resources/).
+>
+> Note: The installer will automatically install **CMake 3.22** (a compatible version for this project)
+
+
 
 Then follow these steps to set up the AgarCL environment on macOS:
 
@@ -163,18 +177,23 @@ Then follow these steps to set up the AgarCL environment on macOS:
    ```bash
    source agarclenv/bin/activate
    ```
-5. **Run the installer script:**
+5. **Make the install script executable:**
    ```bash
-   ./install.sh
+   chmod +x install.sh
    ```
-6. **Install Python dependencies:**
+
+6. **Run the installer script (may require sudo):**
+   ```bash
+   sudo ./install.sh
+   ```
+7. **Install Python dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-7. **Build & install the Python package:**
+8. **Build and install the Python package:**
    ```bash
    python setup.py install
-    ```
+   ```
 
 ## Running the code
 To run the Go Bigger example, execute the following line:
