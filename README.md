@@ -81,7 +81,7 @@ Now, let's install the platform on your system (`agarclcontainer` container):
 1. **Clone the AgarCL-benchmark Repository**
    - Clone the repository:
      ```bash
-     git clone git@github.com/AgarCL/AgarCL-benchmark.git
+     git clone git@github.com:AgarCL/AgarCL-benchmark.git
      ```
 
 2. **Navigate to the AgarCL-Benchmark Directory**
