@@ -42,7 +42,7 @@ namespace agario {
            int num_pellets = DEFAULT_NUM_PELLETS,
            int num_viruses = DEFAULT_NUM_VIRUSES,
            bool pellet_regen = true,
-          int mode_number = 0) :
+          int mode_number = 11) :
       state(agario::GameConfig(arena_width, arena_height, num_pellets, num_viruses, pellet_regen))
     {
       set_mode(mode_number);
