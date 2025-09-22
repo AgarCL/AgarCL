@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/home/ayman/thesis/rebuttal/H/AgarCL/build/temp.linux-x86_64-cpython-311/dependencies/benchmark/third_party/googletest/stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

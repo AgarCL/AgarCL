@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -fpermissive -O3 -DNDEBUG CMakeFiles/bot-compare.dir/bots/benchmark.cpp.o -o bot-compare  ../utils/libutil.a 

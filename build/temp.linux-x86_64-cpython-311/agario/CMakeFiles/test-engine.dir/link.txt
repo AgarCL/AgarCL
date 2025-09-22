@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -fpermissive -O3 -DNDEBUG CMakeFiles/test-engine.dir/test/main.cpp.o -o test-engine  -lpthread ../lib/libgtest.a 

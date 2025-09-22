@@ -228,7 +228,7 @@ namespace agario {
       move_foods(elapsed_seconds);
 
       if(regen_pellets){ // if there is regeneration to the pellets.
-        if(state.ticks%120 == 0){ //every 6 seconds
+        if(state.ticks%pellet_ticks == 0){ //every 6 seconds
           // if (state.config.pellet_regen) {
             add_pellets(state.config.target_num_pellets - state.pellets.size());
           // }
@@ -358,6 +358,7 @@ namespace agario {
     int pellets_grid_height; int virus_grid_height;
     std::vector<std::vector<int>> pellets_grid;
     std::vector<std::vector<int>> virus_grid;
+    int pellet_ticks = 600; // ticks before a pellet can be eaten again
 
     bool mass_decay_ = true;
     bool is_squared_pellets_ = false;
@@ -409,6 +410,10 @@ namespace agario {
       case 9:
       case 10:
         set_mode(4);
+        break;
+      case 11:
+        set_mode(4);
+        pellet_ticks = 120; 
         break;
       default:
         throw EngineException("Invalid mode number");
