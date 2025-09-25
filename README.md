@@ -7,7 +7,7 @@
 
 A research platform for continual RL that allows for a progression of increasingly sophisticated behaviour.
 
-Please find the documentation [here](https://agarcl.github.io/).
+
 
 <div align="center">
     <img src="assets/game_description.png" alt="AgarCL description" width="600"/>
